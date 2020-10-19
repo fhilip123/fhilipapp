@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fhilipApp</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p>E-study</p>
+        </div>
+    </header>
+    <div class="other-container" id="message-container-other"></div>
+    <div class="self-container" id="message-container-self"></div>
+    <div class="container">
+        <div class="text-div" id="text-id">
+            <div class="blue-container" id="send-container">
+                <input type="text" class="text-area" id="input-message" type="submit">
+                <div class="circle" id="button-area"><button id="button-id" class="button"></button></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
