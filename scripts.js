@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000')
+const socket = io('https://afternoon-springs-96024.herokuapp.com/')
 const messageContainerOther = document.getElementById('message-container-other')
 const messageContainerSelf = document.getElementById('message-container-self')
 const messageForm = document.getElementById('send-container')
